@@ -1,0 +1,72 @@
+*{
+    background-color: #16181a;
+}
+
+video {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 1100px;
+    height: 757px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 {
+    width: 1255px;
+    height: 757px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.split-1 {
+    height: 100%;
+    width: 57%;
+    position: fixed;
+
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.split-2 {
+    height: 100%;
+    width: 42%;
+    position: fixed;
+
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
+
+.container-2 {
+    position: absolute;
+    top: 0.5px;
+    left: 0px;
+}
+
+.container {
+    position: absolute;
+    top: 0.5px;
+    left: 0px;
+}
